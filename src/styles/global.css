@@ -1,7 +1,11 @@
-:root{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
   --bg:#F4E9D8; /* Warm Cream */
   --fg:#1F2937; /* Slate-800 */
   --brand:#7BAEDC; /* Pale Blue */
 }
-html,body{background:var(--bg);color:var(--fg);}
-a{color:var(--brand);}
+html,body{ background:var(--bg); color:var(--fg); }
+a{ color:var(--brand); }
