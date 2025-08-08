@@ -1,8 +1,8 @@
 /** Autism Forever Home palette */
 module.exports = {
   content: [
-    "./src/**/*.{astro,html,js,jsx,ts,tsx,vue,svelte}",
-    "./public/**/*.html"
+    "./src/**/*.{astro,html,js,jsx,ts,tsx,vue,svelte,md,mdx}",
+    "./public/**/*.html",
   ],
   theme: {
     extend: {
